@@ -4,20 +4,29 @@ This repository contains the code to reproduce the experimental results of A-Cra
 
 ### Setup 
 
-#### Clone the repository and create a conda environment.
+#### Step 1: Clone the repository.
 ```
 git clone https://github.com/zhuhl98/ACrab.git
+```
+or
+```
+git clone git@github.com:zhuhl98/ACrab.git
+```
+
+#### Step 2: Create a conda environment.
+
+```
 conda create -n ACrab python=3.9
 conda activate ACrab
 cd ACrab
 ```
 
-To install, run 
+#### Step 3: To install, run 
 ```
 pip install -e .
 ```
 
-It uses mujoco210, which can be installed, if needed, following the commands below.
+#### Step 4: It uses mujoco210, which can be installed, if needed, following the commands below.
 
 ```
 bash install.sh
@@ -25,7 +34,7 @@ echo "export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:~/.mujoco/mujoco210/bin:/usr/lib/n
 source ~/.bashrc
 ```
 
-Then you can start the training by running, e.g.,
+#### Step 5: You can start the training by running, e.g.,
 
     python main.py --log_dir ./tmp_results --env_name hopper-medium-expert-v2 --beta 1 --C_infty 1
 
