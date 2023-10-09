@@ -34,7 +34,7 @@ echo "export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:~/.mujoco/mujoco210/bin:/usr/lib/n
 source ~/.bashrc
 ```
 
-### Step 5: If necessary, downgrade Cython:
+#### Step 5: If necessary, downgrade Cython:
 ```
 pip install Cython==0.29.36
 ```
