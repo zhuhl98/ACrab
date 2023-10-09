@@ -251,8 +251,8 @@ class ACrab(nn.Module):
             update_exponential_moving_average(self._target_qf, self._qf, self._tau)
 
         if upd_idx%10000 == 0:
-                    log_func(f'qfna: {qfna}')
-                    log_func(f'qfp: {qfp}')
+                    # log_func(f'qfna: {qfna}')
+                    # log_func(f'qfp: {qfp}')
                     log_func(f'qfna.mean: {qfna.mean()}')
                     log_func(f'qfp.mean: {qfp.mean()}')
                     # log_func(f'w_pred_1: {w_pred_1}')
