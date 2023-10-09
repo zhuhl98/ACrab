@@ -11,7 +11,11 @@ conda create -n acrab python=3.9
 cd ACrab
 ```
 
-To install, clone the repo and run `pip install -e .`. It uses mujoco210, which can be installed, if needed, following the commands below.
+To install, run 
+```pip install -e .
+```
+
+It uses mujoco210, which can be installed, if needed, following the commands below.
 
 ```
 bash install.sh
