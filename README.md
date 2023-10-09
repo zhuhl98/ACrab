@@ -34,7 +34,12 @@ echo "export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:~/.mujoco/mujoco210/bin:/usr/lib/n
 source ~/.bashrc
 ```
 
-#### Step 5: You can start the training by running, e.g.,
+### Step 5: If necessary, downgrade Cython:
+```
+pip install Cython==0.29.36
+```
+
+#### Step 6: You can start the training by running, e.g.,
 
     python main.py --log_dir ./tmp_results --env_name hopper-medium-expert-v2 --beta 1 --C_infty 1
 
