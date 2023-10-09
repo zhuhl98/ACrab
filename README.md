@@ -38,6 +38,8 @@ source ~/.bashrc
 
     python main.py --log_dir ./tmp_results --env_name hopper-medium-expert-v2 --beta 1 --C_infty 1
 
+If you encounter the error `ModuleNotFoundError: No module named 'gym'`, run `pip install gym` and rerun the above command.
+
 More instructions can be found in `main.py`, and please see the [original paper](https://arxiv.org/abs/2301.12714) for hyperparameters (e.g., `beta`, `C_infty`). The code was tested with python 3.9.
 
 
