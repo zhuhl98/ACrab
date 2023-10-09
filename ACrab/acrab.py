@@ -255,9 +255,9 @@ class ACrab(nn.Module):
                     log_func(f'qfp: {qfp}')
                     log_func(f'qfna.mean: {qfna.mean()}')
                     log_func(f'qfp.mean: {qfp.mean()}')
-                    log_func(f'w_pred_1: {w_pred_1}')
-                    log_func(f'q_target: {q_target}')
-                    log_func(f'q_backup: {q_backup}')
+                    # log_func(f'w_pred_1: {w_pred_1}')
+                    # log_func(f'q_target: {q_target}')
+                    # log_func(f'q_backup: {q_backup}')
 
         ##### Update Actor #####
         # Compuate entropy
