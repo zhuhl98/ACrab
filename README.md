@@ -8,6 +8,7 @@ This repository contains the code to reproduce the experimental results of A-Cra
 ```
 git clone https://github.com/zhuhl98/ACrab.git
 conda create -n ACrab python=3.9
+conda activate ACrab
 cd ACrab
 ```
 
