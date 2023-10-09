@@ -6,7 +6,7 @@ This repository contains the code to reproduce the experimental results of A-Cra
 
 #### Clone the repository and create a conda environment.
 ```
-git clone https://github.com/microsoft/ATAC.git
+git clone https://github.com/zhuhl98/ACrab.git
 conda create -n ACrab python=3.9
 cd ACrab
 ```
