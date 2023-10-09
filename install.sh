@@ -1,6 +1,6 @@
 ################ Uncommment this part to install conda env
-# conda create -n lightATAC  python=3.9 -y
-# conda activate lightATAC
+# conda create -n ACrab  python=3.9 -y
+# conda activate ACrab
 ################
 
 ################ Uncommment this part to install mujoco210
