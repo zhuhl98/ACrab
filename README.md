@@ -32,6 +32,7 @@ pip install -e .
 bash install.sh
 echo "export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:~/.mujoco/mujoco210/bin:/usr/lib/nvidia" >> ~/.bashrc
 source ~/.bashrc
+conda activate ACrab
 ```
 
 #### Step 5: If necessary, downgrade Cython:
