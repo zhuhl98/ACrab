@@ -12,7 +12,8 @@ cd ACrab
 ```
 
 To install, run 
-```pip install -e .
+```
+pip install -e .
 ```
 
 It uses mujoco210, which can be installed, if needed, following the commands below.
